@@ -1,0 +1,13 @@
+esta con bootstrap xd
+
+--yo hare el index(home)
+--curi haces el about
+--miler haces el contact
+
+* para los iconos usaremos fontawesome (https://fontawesome.com/)
+simplemente necesitas importar el icono que quieres ejemplo: 
+<i class="fas fa-envelope"></i>
+
+* para sacar imágenes usar (pexels.com) y guardarlas en la carpeta imágenes
+
+* para los componentes de bootstrap (https://getbootstrap.com/) y la documentación.

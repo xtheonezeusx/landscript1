@@ -1,0 +1,82 @@
+/* estilos generales */
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+p {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+/* nav */
+.navbar {
+    background-color: #fff;
+    margin-bottom: 0;
+    padding: 10px 0;
+}
+
+.navbar .navbar-brand {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+/* banner */
+.banner {
+    background-color: #FAFAFA;
+}
+
+.banner .title {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.banner .contact {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    border: 1px solid #03989E;
+    text-decoration: none;
+    color: #fff;
+    background-color: #03989E;
+    font-size: 18px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+/* services */
+.services .title {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.services i {
+    color: #03989E;
+    font-size: 32px;
+    margin: 20px 0;
+}
+
+.services .item .sub-title {
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.7);
+    text-transform: capitalize;
+}
+
+/* footer */
+
