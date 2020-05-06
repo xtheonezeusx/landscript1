@@ -78,6 +78,78 @@ p {
     text-transform: capitalize;
 }
 
+.services .item .service {
+  box-shadow: 0 0 5px #03989E;
+}
+
+/* partner */
+.partner .subtitle {
+  font-size: 18px;
+  color: #03989E;
+  text-transform: capitalize;
+}
+
+.partner .title {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.partner .list li {
+  margin-bottom: 2px;
+  font-weight: 600;
+}
+
+.partner .list li i {
+  color: #03989E;
+}
+
+.partner .boton {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 10px 20px;
+  border: 1px solid #03989E;
+  text-decoration: none;
+  color: #03989E;
+  font-size: 18px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.partner .boton:hover {
+  background-color: #03989E;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+/* agency */
+.agency .container {
+  background: url(../images/biblioteca2.jpeg) no-repeat center;
+  background-size: cover;
+}
+
+.agency .content {
+  padding: 0 12em;
+}
+
+.agency .description {
+  color: #fff;
+}
+
+.agency .title {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+@media (max-width: 769px) {
+  .agency .content {
+    padding: 0;
+  }
+}
+
 /* estilos de about */
 .about1 .ablock{
  background-size: cover;
@@ -145,5 +217,10 @@ p {
     width: 281px; }
   .about1 .link-list-menu p {
     font-size: 20px; } }
+
 /* footer */
+
+footer input.form-control {
+  padding: 1em;
+}
 
